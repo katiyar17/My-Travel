@@ -1,0 +1,234 @@
+ #con {
+    margin-left: 870px;
+    float: right; /* Move the "Contact" link to the right */
+  }
+    
+.heading{
+    align-items: center;
+    justify-content: center;
+    color: rgb(144, 11, 233);
+    margin-left: 345px;
+}
+
+.container {
+    margin-top: 19px;
+    text-decoration: double;
+    font-weight: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 335px;
+}
+textarea {
+   
+    font-size: 16px; /* Set the font size */
+    color: #02a4cc;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  textarea:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: #980cf5; /* Change border color on focus */
+  }
+
+  .full-screen-image {
+    width: 100vw; /* Set width to full viewport width */
+    height: 100vh; /* Set height to full viewport height */
+  
+    
+    overflow: auto; /* Allow scrolling if image exceeds viewport */
+}
+
+ 
+.ab {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px; 
+
+  display: flex;
+}
+
+.ab-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* styles.css */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px; /* Add margin between buttons */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.btn:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: red;
+  border: 2px solid red;
+}
+
+.btn-warning {
+  background-color: orange;
+  border: 2px solid orange;
+}
+
+
+.small-image {
+  width: 40%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+   
+}
+
+.image-wrapper {
+  width: 500%;
+  text-align: center;
+}
+
+.hm1 {
+  display: flex;
+  color: aqua;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.full-screen-image {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Set height to viewport height */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.full-screen-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ 
+.travel-heading {
+  font-family: cursive;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgb(8, 80, 175);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px;
+}
+
+.travel-container {
+  display: flex;
+  justify-content: center;
+  h3 {
+    margin-bottom: 10px;
+    color: #e70404;
+    font-family:sans-serif;
+  }
+}
+
+.travel-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.travel-container > div {
+  flex: 1 1 300px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ 
+.destination-box:hover {
+  transform: scale(1.05); /* Scale up the box on hover */
+}
+
+.travel-container p {
+  color: #666;
+}
+
+.button-container-travel {
+  display: flex;
+  justify-content: center; /* Horizontally center the button */
+  align-items: center; /* Vertically center the button */
+   margin-top: 2%; /* Set height to 100% of the viewport height */
+}
+
+.btn:hover {
+  background-color: #0a0505; /* Darker background color on hover */
+}
+  
+ .btn-secondary-travel {
+background-color: gray;
+ }
+
+  
+ /* Global styles */
+
+/* Add a media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .usaheading {
+    margin-left: 0; /* Reset margin for smaller screens */
+    text-align: center; /* Center-align the heading */
+    
+  }
+
+  .container {
+    margin-left: 0; /* Reset margin for smaller screens */
+    text-align: center; /* Center-align the container */
+  }
+
+  .image-container {
+    margin-right: 5%; /* Adjust margin for smaller screens */
+    margin-left: 5%; /* Adjust margin for smaller screens */
+  }
+
+  .image-card {
+    margin: 0; /* Reset margin for smaller screens */
+  }
+
+  .image-button {
+    margin-right: 0; /* Reset margin for smaller screens */
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  .full-screen-image {
+    height: auto; /* Reset height for smaller screens */
+  }
+
+  .full-screen-image img {
+    height: auto; /* Reset height for smaller screens */
+  }
+}
+
+/* Add more media queries as needed for other screen sizes */
+
+ 

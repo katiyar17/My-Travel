@@ -1,0 +1,46 @@
+.full-screen-image {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    font-size: larger;
+    font-weight: 600;
+    padding: 15px;
+    font-family: cursive;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: hsl(276, 92%, 63%);
+    
+}
+
+
+.text-overlay h1 {
+     /* Add this line */
+    background-color: rgb(5, 82, 117);
+    font-weight: 600;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.overlay-button {
+    background-color: rgb(241, 238, 238);
+    color: rgb(218, 142, 3);
+    border: none;
+    padding: 2%;
+    margin: 20% 50px 0% 6%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.overlay-button:hover {
+    background-color: rgba(41, 5, 126, 0.678);
+}
